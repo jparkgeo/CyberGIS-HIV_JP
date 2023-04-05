@@ -433,7 +433,7 @@ def Scenario_Analysis(param, excludeOutliers):
     print(f'Visualization: {url}')
     print(f"Log: {local_dir1 + '/log.html'}")
     print(f"Advanced Parameters: {local_dir2 + 'SAM_' + param['filename_suffix']+'/data/CONFIG_' + param['filename_suffix']+'.js'}")
-    print(f"Model Results (XLSX): {local_dir3 + 'SAM_' + param['filename_suffix']+'/data/SAM_' + param['filename_suffix']+'_output.xlsx'}")
+    print(f"Download Results: {local_dir3 + 'SAM_' + param['filename_suffix']+'/data/SAM_' + param['filename_suffix']+'_output.xlsx'}")
 
     # Following line will pop up 'index.html' when the code runs (Only works in Jupyter Lab).
     # display(Javascript('window.open("{url}");'.format(url=url)))
